@@ -11,13 +11,13 @@ const publicDir = path.join(projectRoot, 'public');
 const manifestPath = path.join(publicDir, 'manifest.json');
 
 // 从环境变量获取站点名称
-const siteName = process.env.SITE_NAME || 'MoonTV';
+const siteName = process.env.SITE_NAME || '月光影视';
 
 // manifest.json 模板
 const manifestTemplate = {
   "name": siteName,
   "short_name": siteName,
-  "description": "影视聚合",
+  "description": "影视基地",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
